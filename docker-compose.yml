@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  springboot2:
+    build:
+      dockerfile: Dockerfile
+    image: 'springboot2'
+    ports:
+      - "8081:8080"
